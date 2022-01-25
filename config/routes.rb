@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  match '/foo' => 'ds_filters/filters#foo'
+  get '/foo' => 'ds_filters/filters#foo'
 end
